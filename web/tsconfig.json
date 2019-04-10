@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
+    "allowJs": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es5"
   },
   "exclude": [
     "node_modules"  
